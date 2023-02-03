@@ -11,8 +11,8 @@ plugins {
     checkstyle
 }
 
-project.extra["GithubUrl"] = "https://github.com/yuri-moens/chaos-plugins-public"
-project.extra["GithubUserName"] = "yuri-moens"
+project.extra["GithubUrl"] = "https://github.com/hakufu/chaos-plugins-public"
+project.extra["GithubUserName"] = "hakufu"
 project.extra["GithubRepoName"] = "chaos-plugins-public"
 
 apply<BootstrapPlugin>()
@@ -33,7 +33,7 @@ subprojects {
     group = "io.reisub.unethicalite"
 
     project.extra["PluginProvider"] = "ChaosEnergy"
-    project.extra["ProjectSupportUrl"] = "https://github.com/yuri-moens/chaos-plugins-public/issues"
+    project.extra["ProjectSupportUrl"] = "https://github.com/hakufu/chaos-plugins-public/issues"
     project.extra["PluginLicense"] = "3-Clause BSD License"
 
     apply<JavaPlugin>()
